@@ -1,0 +1,19 @@
+{
+  "name": "Philadelphia, PA",
+  "email": "ksm@pobox.com",
+  "poweredBy": "Cofax",
+  "poweredByIcon": "/images/cofax.gif",
+  "staticPath": "/content/static",
+  "defaultListTemplate": "listTemplate.htm",
+  "defaultFileTemplate": "articleTemplate.htm",
+  "cachePackageTagsTrack": 200,
+  "cachePackageTagsStore": 200,
+  "cachePackageTagsRefresh": 60000000000000000,
+  "useDataStore": true,
+  "dataStoreLogFile": "/usr/local/tomcat/logs/datastore.log",
+  "dataStoreInitConns": 10,
+  "dataStoreMaxConns": 100,
+  "dataStoreConnUsageLimit": 100,
+  "dataStoreLogLevel": "debug",
+  "maxUrlLength": 500
+}

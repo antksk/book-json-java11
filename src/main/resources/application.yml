@@ -1,0 +1,6 @@
+
+logging:
+  level:
+    root: info
+    org.springframework.boot: info
+    com.github.antksk.book.json: debug
