@@ -49,7 +49,7 @@ class MapOrGodObjectTest {
 
 
     @DisplayName("[GOD] JSON 데이터를 읽을 떄, GodObject 자료형을 사용하게 되면 불편한 점")
-//    @Disabled("jsonTestCase_3.json 읽을때, cachePackageTagsRefresh 값이 int형을 넘기 때문에 에러가 발생함")
+    @Disabled("jsonTestCase_3.json 읽을때, cachePackageTagsRefresh 값이 int형을 넘기 때문에 에러가 발생함")
     @ParameterizedTest
     @ValueSource(strings = {"jsonTestCase_1.json", "jsonTestCase_2.json", "jsonTestCase_3.json"})
     void godObject(String jsonFileName) throws IOException {
