@@ -9,7 +9,7 @@
 
   "cachePackageTagsTrack": 10,
   "cachePackageTagsStore": 200,
-  "cachePackageTagsRefresh": 60000000000000000,
+  "cachePackageTagsRefresh": 60000,
 
   "useDataStore": true,
   "dataStoreLogFile": "/usr/local/tomcat/logs/datastore.log",

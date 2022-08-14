@@ -1,12 +1,13 @@
 package com.github.antksk.book.json._01_biz_and_small.piece;
 
+import lombok.AccessLevel;
 import lombok.RequiredArgsConstructor;
 import lombok.ToString;
 
 import java.util.Optional;
 
 @ToString
-@RequiredArgsConstructor
+@RequiredArgsConstructor(access = AccessLevel.PACKAGE)
 final class RequireBaseInfo {
     private final String name;
     private final String email;
