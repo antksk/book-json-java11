@@ -2,9 +2,11 @@ package com.github.antksk.book.json._01_biz_and_small.piece;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
+import lombok.ToString;
 
 import java.util.function.Predicate;
 
+@ToString
 @RequiredArgsConstructor
 final class CachePackageTag {
     @Getter
