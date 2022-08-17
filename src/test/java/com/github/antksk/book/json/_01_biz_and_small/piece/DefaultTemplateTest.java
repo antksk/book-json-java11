@@ -3,13 +3,9 @@ package com.github.antksk.book.json._01_biz_and_small.piece;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import java.util.Arrays;
 import java.util.Collections;
 import java.util.Optional;
 import java.util.Set;
-
-import static com.github.antksk.book.json._01_biz_and_small.piece.DefaultFields.defaultFields;
-import static org.junit.jupiter.api.Assertions.*;
 
 class DefaultTemplateTest {
 
